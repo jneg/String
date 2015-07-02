@@ -7,7 +7,7 @@ int StrLen(char *str);
 // Copies |src| into |dst| or |len| - 1 chars from |src|
 // into |dst|, whichever comes first.
 // Always appends a null character at the end of |dst|.
-// Returns an error if the length of |dst| is less than |len| - 1.
+// Returns EXIT_FAILURE if the length of |dst| is less than |len| - 1.
 int StrCpy(char *dst, char *src, int len);
 
 // Appends |src| onto |dst| or |len| - 1 chars from |src| onto
