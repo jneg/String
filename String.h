@@ -1,3 +1,6 @@
+#ifndef STRING_H
+#define STRING_H
+
 // Returns the length of |str|, not including the null character.
 int StrLen(char *str);
 
@@ -18,3 +21,5 @@ char *StrFindChar(char *str, char find);
 
 // Returns 1, 0, -1 if |str1| is greater, equal, or less than |str2|.
 int StrCmp(char *str1, char *str2);
+
+#endif
